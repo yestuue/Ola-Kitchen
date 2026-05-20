@@ -1,0 +1,8 @@
+{
+  "name": "Animated Landing Page Recreation",
+  "description": "A visually accurate recreation of a Dribbble design, featuring exact fonts and animations.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}
