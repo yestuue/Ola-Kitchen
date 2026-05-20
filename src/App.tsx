@@ -36,7 +36,7 @@ const NAV_LINKS = [
 
 const CARDS = [
   {
-    img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=500&q=80",
+    img: "/jollof-rice.jpg",
     rotate: -16,
     x: -260,
     y: 55,
@@ -44,7 +44,7 @@ const CARDS = [
     scale: 0.9,
   },
   {
-    img: "https://images.unsplash.com/photo-1555244162-803834f70033?w=500&q=80",
+    img: "/small-chops.jpg",
     rotate: -8,
     x: -130,
     y: 20,
@@ -52,7 +52,7 @@ const CARDS = [
     scale: 0.95,
   },
   {
-    img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=500&q=80",
+    img: "/pounded-yam-egusi.jpg",
     rotate: 0,
     x: 0,
     y: 0,
@@ -60,7 +60,7 @@ const CARDS = [
     scale: 1.05,
   },
   {
-    img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=500&q=80",
+    img: "/grilled-salmon.jpg",
     rotate: 8,
     x: 130,
     y: 20,
@@ -68,7 +68,7 @@ const CARDS = [
     scale: 0.95,
   },
   {
-    img: "https://images.unsplash.com/photo-1565557623262-b51c2513a641?w=500&q=80",
+    img: "/feast-tray.jpg",
     rotate: 16,
     x: 260,
     y: 55,
@@ -80,14 +80,14 @@ const CARDS = [
 const CATEGORIES = ["All Menu", "Naija Food", "Continental", "Small Chops", "Drinks", "Food Trays"];
 
 const MENU_ITEMS = [
-  { id: 1, category: "Naija Food", title: "Party Jollof Rice", desc: "Smoky, rich party Jollof served with grilled chicken, plantain, and coleslaw. Premium enjoyment.", img: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=600&q=80" },
-  { id: 2, category: "Small Chops", title: "Premium Chops Box", desc: "Spring rolls, samosas, puff-puff, peppered meats, and our signature dipping sauce. No dulling.", img: "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?w=600&q=80" },
-  { id: 3, category: "Continental", title: "Creamy Chicken Pasta", desc: "Penne pasta tossed in a rich garlic cream sauce with tender grilled chicken breast.", img: "https://images.unsplash.com/photo-1621996311204-66f9ee5c6970?w=600&q=80" },
-  { id: 4, category: "Naija Food", title: "Assorted Pepper Soup", desc: "Spicy, aromatic, and comforting traditional pepper soup loaded with assorted meats. E dey hit well.", img: "https://images.unsplash.com/photo-1549488344-1f9b8d2bd1f3?w=600&q=80" },
-  { id: 5, category: "Food Trays", title: "Owanbe Feast Tray", desc: "A deluxe tray of local and continental bites for your special guests. Full belly guaranteed.", img: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=600&q=80" },
-  { id: 6, category: "Drinks", title: "Chilled Zobo Drink", desc: "Refreshing traditional hibiscus tea beautifully infused with pineapple, ginger, and cloves. Cold set.", img: "https://images.unsplash.com/photo-1556679343-c73c6c1976bc?w=600&q=80" },
-  { id: 7, category: "Continental", title: "Grilled Salmon Veggies", desc: "Perfectly pan-seared salmon fillet served alongside seasonal grilled vegetables. For the fit fam.", img: "https://images.unsplash.com/photo-1467003909585-2f8a72700288?w=600&q=80" },
-  { id: 8, category: "Naija Food", title: "Pounded Yam & Egusi", desc: "Authentic Egusi soup rich in melon seeds and spinach, served with smooth pounded yam. As e dey hot.", img: "https://images.unsplash.com/photo-1604908176997-125f25cc6f3d?w=600&q=80" },
+  { id: 1, category: "Naija Food", title: "Party Jollof Rice", desc: "Smoky, rich party Jollof served with grilled chicken, plantain, and coleslaw. Premium enjoyment.", img: "/jollof-rice.jpg" },
+  { id: 2, category: "Small Chops", title: "Premium Chops Box", desc: "Spring rolls, samosas, puff-puff, peppered meats, and our signature dipping sauce. No dulling.", img: "/small-chops.jpg" },
+  { id: 3, category: "Continental", title: "Creamy Chicken Pasta", desc: "Penne pasta tossed in a rich garlic cream sauce with tender grilled chicken breast.", img: "/chicken-pasta.jpg" },
+  { id: 4, category: "Naija Food", title: "Assorted Pepper Soup", desc: "Spicy, aromatic, and comforting traditional pepper soup loaded with assorted meats. E dey hit well.", img: "/pepper-soup.jpg" },
+  { id: 5, category: "Food Trays", title: "Owanbe Feast Tray", desc: "A deluxe tray of local and continental bites for your special guests. Full belly guaranteed.", img: "/feast-tray.jpg" },
+  { id: 6, category: "Drinks", title: "Chilled Zobo Drink", desc: "Refreshing traditional hibiscus tea beautifully infused with pineapple, ginger, and cloves. Cold set.", img: "/zobo-drink.jpg" },
+  { id: 7, category: "Continental", title: "Grilled Salmon Veggies", desc: "Perfectly pan-seared salmon fillet served alongside seasonal grilled vegetables. For the fit fam.", img: "/grilled-salmon.jpg" },
+  { id: 8, category: "Naija Food", title: "Pounded Yam & Egusi", desc: "Authentic Egusi soup rich in melon seeds and spinach, served with smooth pounded yam. As e dey hot.", img: "/pounded-yam-egusi.jpg" },
 ];
 
 const FacebookIcon = ({ className }: { className?: string }) => (
@@ -130,7 +130,7 @@ const TESTIMONIALS = [
     handle: "@chidi_events",
     borderClass: "border-blue-500/30",
     shadowClass: "shadow-[0_0_25px_rgba(59,130,246,0.06)]",
-    img: "https://images.unsplash.com/photo-1523264629844-40dd6bf17c2b?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1531384441138-2736e62e0919?w=150&q=80",
     text: "Omo, the food was absolutely phenomenal! Our guests are still talking about that Party Jollof. The presentation and taste were both spectacular. E make brain die!",
     icon: <FacebookIcon className="w-5 h-5 text-blue-500" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -141,7 +141,7 @@ const TESTIMONIALS = [
     handle: "@bola_adebayo",
     borderClass: "border-pink-500/40",
     shadowClass: "shadow-[0_0_25px_rgba(236,72,153,0.06)]",
-    img: "https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1531123897727-8f129e1bfcc5?w=150&q=80",
     text: "Ola Kitchen handled our corporate food supply flawlessly. Awon eyan mi gbadun awon small chops gan ni. Everything was delivered right on time. Pure enjoyment.",
     icon: <TiktokIcon className="w-5 h-5 text-black bg-white rounded-full p-[2px]" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -152,7 +152,7 @@ const TESTIMONIALS = [
     handle: "@onyeka_events",
     borderClass: "border-red-500/30",
     shadowClass: "shadow-[0_0_25px_rgba(239,68,68,0.06)]",
-    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1506803682981-6e718a9dd3ee?w=150&q=80",
     text: "Having the event cooking service for my 40th was the best decision. Nri a di uto rinne! The mix of continental and local food pleased everyone. Highly recommended.",
     icon: <YoutubeIcon className="w-5 h-5 text-red-500" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -163,7 +163,7 @@ const TESTIMONIALS = [
     handle: "@fatty_abu",
     borderClass: "border-sky-500/30",
     shadowClass: "shadow-[0_0_25px_rgba(14,165,233,0.06)]",
-    img: "https://images.unsplash.com/photo-1531123897727-8f129e1bfcc5?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1563132337-f159f484226c?w=150&q=80",
     text: "Abinci yayi dadi sosai! We love Ola Kitchen! Our event planners use them for all their projects, so our clients already know the standard they bring.",
     icon: <TwitterIcon className="w-5 h-5 text-sky-500" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -174,7 +174,7 @@ const TESTIMONIALS = [
     handle: "@tunde_b",
     borderClass: "border-amber-500/40",
     shadowClass: "shadow-[0_0_25px_rgba(245,158,11,0.06)]",
-    img: "https://images.unsplash.com/photo-1599566150163-29194dcaad36?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=150&q=80",
     text: "If you want make your party scatter with better food, na Ola Kitchen. Using them for our projects makes everything so easy. No stress at all.",
     icon: <InstagramIcon className="w-5 h-5" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -185,7 +185,7 @@ const TESTIMONIALS = [
     handle: "@kemi_bakes",
     borderClass: "border-purple-500/40",
     shadowClass: "shadow-[0_0_25px_rgba(168,85,247,0.06)]",
-    img: "https://images.unsplash.com/photo-1544005313-94ddf0286df2?w=150&q=80",
+    img: "https://images.unsplash.com/photo-1543269664-7eef42226a21?w=150&q=80",
     text: "Their catering for my daughter's naming ceremony was top notch. The Ofada rice and sauce was a massive hit. The setup was also very beautiful and neat.",
     icon: <InstagramIcon className="w-5 h-5 text-purple-500" />,
     span: "md:col-span-1 lg:col-span-4"
@@ -209,13 +209,13 @@ const ActionButton = ({ href, icon: Icon, label, primary }: { href: string; icon
 );
 
 const CAROUSEL_ITEMS = [
-  { id: 1, title: 'Small Chops', img: "https://images.unsplash.com/photo-1564834724105-918b73d1b9e0?w=400&q=80" },
-  { id: 2, title: 'Party Jollof', img: "https://images.unsplash.com/photo-1574484284002-952d92456975?w=400&q=80" },
-  { id: 3, title: 'Homemade Meals', img: "https://images.unsplash.com/photo-1547592180-85f173990554?w=400&q=80" },
-  { id: 4, title: 'Zobo & Drinks', img: "https://images.unsplash.com/photo-1556679343-c73c6c1976bc?w=400&q=80" },
-  { id: 5, title: 'Food Trays', img: "https://images.unsplash.com/photo-1533089860892-a7c6f0a88666?w=400&q=80" },
-  { id: 6, title: 'Event Cooking', img: "https://images.unsplash.com/photo-1555939594-58d7cb561ad1?w=400&q=80" },
-  { id: 7, title: 'Corporate Supply', img: "https://images.unsplash.com/photo-1544025162-d76694265947?w=400&q=80" },
+  { id: 1, title: 'Small Chops', img: "/small-chops.jpg" },
+  { id: 2, title: 'Party Jollof', img: "/jollof-rice.jpg" },
+  { id: 3, title: 'Homemade Meals', img: "/chicken-pasta.jpg" },
+  { id: 4, title: 'Zobo & Drinks', img: "/zobo-drink.jpg" },
+  { id: 5, title: 'Food Trays', img: "/feast-tray.jpg" },
+  { id: 6, title: 'Event Cooking', img: "/pepper-soup.jpg" },
+  { id: 7, title: 'Corporate Supply', img: "/grilled-salmon.jpg" },
 ];
 
 const PlateCarouselItem = ({ item, index }: { item: any; index: number }) => (
@@ -235,7 +235,34 @@ const PlateCarouselItem = ({ item, index }: { item: any; index: number }) => (
 
 export default function App() {
   const [activeFilter, setActiveFilter] = useState("All Menu");
-  
+
+  const [textIndex, setTextIndex] = useState(0);
+  const [displayText, setDisplayText] = useState("");
+  const [isDeleting, setIsDeleting] = useState(false);
+  const phrases = ["Every Plate.", "Every Bite.", "Every Occasion."];
+
+  useEffect(() => {
+    const currentPhrase = phrases[textIndex];
+    let timeout: ReturnType<typeof setTimeout>;
+
+    if (!isDeleting && displayText === currentPhrase) {
+      timeout = setTimeout(() => setIsDeleting(true), 2000);
+    } else if (isDeleting && displayText === '') {
+      setIsDeleting(false);
+      setTextIndex((prev) => (prev + 1) % phrases.length);
+    } else {
+      timeout = setTimeout(() => {
+        setDisplayText((prev) => 
+          isDeleting 
+            ? prev.slice(0, -1) 
+            : currentPhrase.slice(0, prev.length + 1)
+        );
+      }, isDeleting ? 50 : 100);
+    }
+
+    return () => clearTimeout(timeout);
+  }, [displayText, isDeleting, textIndex]);
+
   const filteredItems = activeFilter === "All Menu" 
     ? MENU_ITEMS 
     : MENU_ITEMS.filter(item => item.category === activeFilter);
@@ -301,14 +328,13 @@ export default function App() {
             transition={{ delay: 0.1, type: "spring", stiffness: 300, damping: 25 }}
             className="text-[14vw] sm:text-[10vw] md:text-[8vw] lg:text-[8rem] xl:text-[9rem] leading-[1] font-semibold font-display tracking-tighter text-slate-900 drop-shadow-sm"
           >
-            Serving Sweetness in<br /><span className="font-handwriting text-[#F37052] font-normal tracking-normal line-clamp-none whitespace-nowrap">Every Plate.</span>
+            Serving Sweetness in<br /><span className="font-handwriting text-[#F37052] font-normal tracking-normal line-clamp-none whitespace-nowrap">{displayText}<span className="animate-pulse">|</span></span>
           </motion.h1>
         </div>
 
         {/* 3D Responsive Image Fan Wrapper */}
         <div 
-          className="relative w-full mt-16 sm:mt-24 md:mt-32 mb-10 overflow-visible flex justify-center perspective-[1500px]"
-          style={{ height: "300px" }} // The height reserves space, but the visuals can break out
+          className="relative w-full mt-4 sm:mt-16 md:mt-24 mb-4 sm:mb-10 overflow-visible flex justify-center perspective-[1500px] h-[140px] xs:h-[160px] sm:h-[220px] md:h-[300px]"
         >
           {/* Universal scale wrap for responsiveness (replaces separate mobile/desktop designs) */}
           <div className="absolute bottom-0 flex justify-center items-end origin-bottom scale-[0.45] xs:scale-[0.55] sm:scale-75 md:scale-90 lg:scale-100">
@@ -680,29 +706,57 @@ export default function App() {
 
           {/* Trust Banner at Bottom */}
           <div className="mt-16 sm:mt-24 w-full max-w-4xl mx-auto flex flex-col items-center">
-            <div className="border border-white/5 bg-[#0a0a0a] rounded-[2rem] w-full py-8 px-6 sm:px-12 flex flex-wrap justify-between items-center gap-8 mb-8 shadow-[0_0_40px_rgba(255,255,255,0.02)]">
-               {/* Just random shapes showing standard generic trust marks visually */}
-               <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                 <div className="w-5 h-5 rounded-sm bg-purple-500 rotate-45"></div>
-                 <span className="font-bold tracking-tight">Weddings</span>
-               </div>
-               <div className="w-px h-6 bg-white/10 hidden sm:block"></div>
-               <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                 <div className="w-2 h-6 md:h-8 rounded-full bg-emerald-500"></div>
-                 <div className="w-2 h-4 md:h-6 rounded-full bg-emerald-400"></div>
-                 <span className="font-bold tracking-tight">Events</span>
-               </div>
-               <div className="w-px h-6 bg-white/10 hidden md:block"></div>
-               <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                 <div className="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-[10px]">C</div>
-                 <span className="font-bold tracking-tight">Corporate</span>
-               </div>
-               <div className="w-px h-6 bg-white/10 hidden sm:block"></div>
-               <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity">
-                 <div className="w-5 h-5 rounded-full border-2 border-purple-500 flex items-center justify-center">
-                    <div className="w-1.5 h-1.5 bg-purple-500 rounded-full"></div>
+            <div className="border border-white/5 bg-[#0a0a0a] rounded-[2rem] w-full py-6 sm:py-8 mb-8 shadow-[0_0_40px_rgba(255,255,255,0.02)] overflow-hidden flex group">
+               <div className="flex shrink-0 min-w-full items-center justify-around gap-12 sm:gap-16 px-6 animate-marquee group-hover:[animation-play-state:paused]">
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-sm bg-purple-500 rotate-45"></div>
+                   <span className="font-bold tracking-tight">Weddings</span>
                  </div>
-                 <span className="font-bold tracking-tight">Parties</span>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-2 h-6 md:h-8 rounded-full bg-emerald-500"></div>
+                   <div className="w-2 h-4 md:h-6 rounded-full bg-emerald-400"></div>
+                   <span className="font-bold tracking-tight">Events</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-[10px]">C</div>
+                   <span className="font-bold tracking-tight">Corporate</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-full border-2 border-purple-500 flex items-center justify-center">
+                      <div className="w-1.5 h-1.5 bg-purple-500 rounded-full"></div>
+                   </div>
+                   <span className="font-bold tracking-tight">Parties</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+               </div>
+               
+               <div className="flex shrink-0 min-w-full items-center justify-around gap-12 sm:gap-16 px-6 animate-marquee group-hover:[animation-play-state:paused]" aria-hidden="true">
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-sm bg-purple-500 rotate-45"></div>
+                   <span className="font-bold tracking-tight">Weddings</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-2 h-6 md:h-8 rounded-full bg-emerald-500"></div>
+                   <div className="w-2 h-4 md:h-6 rounded-full bg-emerald-400"></div>
+                   <span className="font-bold tracking-tight">Events</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-full bg-blue-500 flex items-center justify-center text-white font-bold text-[10px]">C</div>
+                   <span className="font-bold tracking-tight">Corporate</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
+                 <div className="flex items-center gap-2 opacity-60 hover:opacity-100 transition-opacity shrink-0">
+                   <div className="w-5 h-5 rounded-full border-2 border-purple-500 flex items-center justify-center">
+                      <div className="w-1.5 h-1.5 bg-purple-500 rounded-full"></div>
+                   </div>
+                   <span className="font-bold tracking-tight">Parties</span>
+                 </div>
+                 <div className="w-px h-6 bg-white/10 shrink-0"></div>
                </div>
             </div>
             <div className="text-[#a1a1aa] font-medium text-sm">
@@ -714,68 +768,70 @@ export default function App() {
       </section>
 
       {/* Dark Modern Minimal Footer */}
-      <footer className="w-full bg-[#0a0510] text-[#f8f9fa] relative overflow-hidden rounded-t-[2.5rem] pt-16 sm:pt-24 pb-8 border-t border-white/5">
-        
-        {/* Subtle background glow */}
-        <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-[#FAD120] blur-[150px] opacity-[0.08] pointer-events-none rounded-full"></div>
-        <div className="absolute top-0 right-0 w-[40%] h-[50%] bg-[#F37052] blur-[180px] opacity-[0.06] pointer-events-none rounded-full"></div>
+      <div className="bg-[#050505]">
+        <footer className="w-full bg-[#0a0510] text-[#f8f9fa] relative overflow-hidden rounded-t-[2.5rem] pt-16 sm:pt-24 pb-8 border-t border-white/5">
+          
+          {/* Subtle background glow */}
+          <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-[80%] h-[80%] bg-[#FAD120] blur-[150px] opacity-[0.08] pointer-events-none rounded-full"></div>
+          <div className="absolute top-0 right-0 w-[40%] h-[50%] bg-[#F37052] blur-[180px] opacity-[0.06] pointer-events-none rounded-full"></div>
 
-        <div className="max-w-[1200px] mx-auto px-6 sm:px-10 relative z-10 flex flex-col h-full">
-           
-           {/* Top Section */}
-           <div className="flex flex-col md:flex-row items-start justify-between gap-12 sm:gap-16 mb-16 sm:mb-24">
-             {/* Left Text */}
-             <div className="max-w-xl">
-               <div className="text-[#9ca3af] font-medium text-xs tracking-widest uppercase mb-4 flex items-center gap-2">
-                 <span className="text-[#FAD120]">✦</span> Contact Us
+          <div className="max-w-[1200px] mx-auto px-6 sm:px-10 relative z-10 flex flex-col h-full">
+             
+             {/* Top Section */}
+             <div className="flex flex-col md:flex-row items-start justify-between gap-12 sm:gap-16 mb-16 sm:mb-24">
+               {/* Left Text */}
+               <div className="max-w-xl">
+                 <div className="text-[#9ca3af] font-medium text-xs tracking-widest uppercase mb-4 flex items-center gap-2">
+                   <span className="text-[#FAD120]">✦</span> Contact Us
+                 </div>
+                 <h3 className="text-3xl sm:text-4xl font-display font-medium leading-tight mb-16 tracking-tight">
+                   Interested in making your event <span className="text-[#9ca3af]">talk of the town, trying our food menu or simply learning more?</span>
+                 </h3>
+
+                 <div className="flex flex-col">
+                   <span className="text-xs text-[#9ca3af] mb-1">Ready to order?</span>
+                   <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="text-lg font-medium hover:text-[#25D366] transition-colors flex items-center gap-2 group">
+                     Message us on WhatsApp
+                     <span className="group-hover:translate-x-1 transition-transform">↗</span>
+                   </a>
+                 </div>
                </div>
-               <h3 className="text-3xl sm:text-4xl font-display font-medium leading-tight mb-16 tracking-tight">
-                 Interested in making your event <span className="text-[#9ca3af]">talk of the town, trying our food menu or simply learning more?</span>
-               </h3>
 
-               <div className="flex flex-col">
-                 <span className="text-xs text-[#9ca3af] mb-1">Ready to order?</span>
-                 <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="text-lg font-medium hover:text-[#25D366] transition-colors flex items-center gap-2 group">
-                   Message us on WhatsApp
-                   <span className="group-hover:translate-x-1 transition-transform">↗</span>
-                 </a>
+               {/* Right Nav Links */}
+               <div className="grid grid-cols-2 md:grid-cols-4 md:flex-nowrap gap-y-4 gap-x-8 sm:gap-10 pt-6 lg:pt-10 w-full md:w-auto">
+                 <a href="#services" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Services</a>
+                 <a href="#menu" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Our Menu</a>
+                 <a href="#testimonials" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Reviews</a>
+                 <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Book Us</a>
                </div>
              </div>
 
-             {/* Right Nav Links */}
-             <div className="grid grid-cols-2 md:grid-cols-4 md:flex-nowrap gap-y-4 gap-x-8 sm:gap-10 pt-6 lg:pt-10 w-full md:w-auto">
-               <a href="#services" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Services</a>
-               <a href="#menu" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Our Menu</a>
-               <a href="#testimonials" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Reviews</a>
-               <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="text-sm font-medium hover:text-white text-[#d1d5db] transition-colors">Book Us</a>
+             {/* Huge Brand Text Container */}
+             <div className="w-full flex justify-center items-center mt-auto mb-12 sm:mb-20 overflow-hidden">
+               <motion.h2 
+                 initial={{ opacity: 0, y: 50 }}
+                 whileInView={{ opacity: 1, y: 0 }}
+                 transition={{ duration: 0.8, ease: "easeOut" }}
+                 viewport={{ once: true, margin: "-100px" }}
+                 className="text-[14vw] sm:text-[12vw] leading-none font-bold font-handwriting text-white tracking-tight flex items-center select-none text-center justify-center pointer-events-none drop-shadow-xl"
+               >
+                 <span className="block mt-4 sm:mt-10 mr-4 sm:mr-8 opacity-90 transform -rotate-3">Ola Kitchen</span>
+               </motion.h2>
              </div>
-           </div>
 
-           {/* Huge Brand Text Container */}
-           <div className="w-full flex justify-center items-center mt-auto mb-12 sm:mb-20 overflow-hidden">
-             <motion.h2 
-               initial={{ opacity: 0, y: 50 }}
-               whileInView={{ opacity: 1, y: 0 }}
-               transition={{ duration: 0.8, ease: "easeOut" }}
-               viewport={{ once: true, margin: "-100px" }}
-               className="text-[14vw] sm:text-[12vw] leading-none font-bold font-handwriting text-white tracking-tight flex items-center select-none text-center justify-center pointer-events-none drop-shadow-xl"
-             >
-               <span className="block mt-4 sm:mt-10 mr-4 sm:mr-8 opacity-90 transform -rotate-3">Ola Kitchen</span>
-             </motion.h2>
-           </div>
-
-           {/* Bottom Bar */}
-           <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 mt-auto border-t border-white/10 text-xs text-[#9ca3af]">
-             <div>© 2024 Ola Kitchen. All rights reserved.</div>
-             <div className="flex items-center gap-6">
-               <a href="https://www.tiktok.com/@reanachloe28?_r=1&_t=ZS-96TASXToJuB" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">TikTok</a>
-               <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
-               <a href="#" className="hover:text-white transition-colors">Instagram</a>
+             {/* Bottom Bar */}
+             <div className="w-full flex flex-col sm:flex-row items-center justify-between gap-4 pt-6 mt-auto border-t border-white/10 text-xs text-[#9ca3af]">
+               <div>© 2024 Ola Kitchen. All rights reserved.</div>
+               <div className="flex items-center gap-6">
+                 <a href="https://www.tiktok.com/@reanachloe28?_r=1&_t=ZS-96TASXToJuB" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">TikTok</a>
+                 <a href="https://wa.link/ghf22r" target="_blank" rel="noreferrer" className="hover:text-white transition-colors">WhatsApp</a>
+                 <a href="#" className="hover:text-white transition-colors">Instagram</a>
+               </div>
              </div>
-           </div>
 
-        </div>
-      </footer>
+          </div>
+        </footer>
+      </div>
     </div>
   );
 }
